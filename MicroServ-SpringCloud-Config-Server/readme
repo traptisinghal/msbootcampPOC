@@ -1,0 +1,15 @@
+ This project is creating Spring Cloud server which interacts with 
+ Git Repo where all env specific properties files are stored.	
+ 
+ We have linked Git repo with this spring cloud server using below steps:	
+ 
+ Right Click on this project---> build Path--> Link Source-->(below path)
+ C:\trapti\git-localConfigRepo	
+ 
+Property files name prefix will be same as application name property in other application.
+Like in Limit service app, we have below property name.	
+
+spring.application.name=limit-service	
+
+and our properties file name is limit-service-dev.properties	
+

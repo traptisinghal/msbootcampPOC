@@ -1,0 +1,11 @@
+POST
+
+http://localhost:8080/currency-conversion-factor/fromCity/USA/toCity/INR/conversionFactor/75
+
+GET 
+http://localhost:8080/currency-conversion-factor/fromCity/USA/toCity/INR/
+
+
+
+GEt ALL
+http://localhost:8080/currency-conversion-factor
